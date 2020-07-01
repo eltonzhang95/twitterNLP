@@ -21,5 +21,5 @@ Cross validation are implemented in most of the models, but not to some due to e
 After all models are tuned, the top 2 performing models are implemented to the tweets of each party individually.
 ### Negative Reason Classification
 At last, ML models are tuned to classify the reason that a tweet is negative, which has 10 classes in totol. Due to the small sample size, overfitting became an issue. Penalties are assigned to prevent overfitting, but still the problem is not fix perfectly. 
-### More Advanced approach
+### More Advanced Approach
 TF-IDF is a common way of NLP feature engineering, but it is not enough in many cases since it does not conserve the relationship between context. Therefore, neural nets can be a better choice. Due to the time limit of this project, NN approach is not implemented, and might be implemented in the future projects.
